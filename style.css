@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #394a51;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #394a51;
+    text-align: center;
+    /* font-family: "Audiowide", sans-serif; */
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 50px;
+}
+
+.scoreboard{
+    margin: 30px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: "Audiowide", sans-serif;
+    position: relative;
+}
+
+.badge{
+    background: #fdc57b;
+    color: #394a51;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-family: "Audiowide", sans-serif;
+}
+
+#user-badge{
+    position: absolute;
+    top: 30px;
+    left: -40px;
+}
+
+#computer-badge{
+    position: absolute;
+    top: 30px;
+    right: -45px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+.choices{
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.image {
+    padding: 40px;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.image :hover{
+    cursor: pointer;
+    background-color: #7fa99b;
+    border-radius: 35%;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+#makeyourmove-message{
+    font-size: 30px;
+    text-align: center;
+    color: white ;
+    font-family: "Audiowide", sans-serif;
+}
+

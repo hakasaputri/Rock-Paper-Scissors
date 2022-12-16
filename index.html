@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="scoreboard">
+        <div id="user-badge" class="badge">user</div>
+        <div id="computer-badge" class="badge">comp</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper VS Rock. You Win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="image" id="rock">
+            <img src="assets/rock.png" alt="">
+        </div>
+        <div class="image" id="paper">
+            <img src="assets/paper.png" alt="">
+        </div>
+        <div class="image" id="scissors">
+            <img src="assets/scissors.png" alt="">
+        </div>
+    </div>
+
+    <p id="makeyourmove-message">Make your move.</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
